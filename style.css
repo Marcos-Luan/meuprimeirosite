@@ -14,17 +14,41 @@
         display: block;
     }
     
-    .btn-grupo .botaotop {
+    .botaum {
+        margin: 0px;
+        float: left;
+        padding: 14px;
+        position: fixed;
+    }
+    
+    .botaum1 {
         background-color: cadetblue;
-        border: 1px solid cadetblue;
+        border: cadetblue solid 1px;
+        border-spacing: 50px;
+        border-radius: 5px;
         color: white;
-        padding: 15px 32px;
+        white-space: normal;
+        padding: 30px 10px 20px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    
+    .botaum1:hover {
+        background-color: rgb(47, 87, 88);
+        border: rgb(47, 87, 88) solid 1px;
+        transition-duration: 0.7s;
+    }
+    /*.btn-grupo .botaotop {
+        background-color: cadetblue;
+        color: white;
+        padding: 10px 32px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
         cursor: pointer;
         float: left;
+        position: fixed;
     }
     
     .btn-grupo .botaotop:not(:last-child) {
@@ -47,10 +71,6 @@
         padding: 0px;
         display: block;
     }*/
-    
-    figure {
-        margin: 0px auto;
-    }
     
     .centro {
         text-align: center;
@@ -75,8 +95,8 @@
     #image_background {
         background: url(img/clima1.jpg);
         background-size: cover;
-        height: 500px;
-        padding: 10px;
+        height: 520px;
+        padding: 65px;
     }
     
     .divimg {
@@ -96,12 +116,20 @@
     .coluna {
         float: left;
         width: 32.33%;
-        padding: 5px;
+        padding: 6.5px;
         text-align: center;
+        background-color: #ccc;
+        background-size: cover;
+        height: 300px;
     }
     
     @media screen and (max-width:600px) {
         .coluna {
-            width: 100%;
+            width: 97.7%;
         }
+    }
+    
+    .whohelp {
+        background-color: #aaa;
+        height: 500px;
     }
