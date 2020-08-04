@@ -2,7 +2,7 @@
     body {
         margin: 0px 0px;
         margin-top: 0px;
-        background-color: gray
+        background-color: gray;
     }
     
     html {
@@ -17,8 +17,8 @@
     }
     
     .botaum1 {
-        background-color: cadetblue;
-        border: cadetblue solid 1px;
+        background-color: #187CB5;
+        border: #187CB5 solid 1px;
         border-radius: 10px;
         color: white;
         white-space: normal;
@@ -28,8 +28,8 @@
     }
     
     .botaum1:hover {
-        background-color: rgb(47, 87, 88);
-        border: rgb(47, 87, 88) solid 1px;
+        background-color: #124C8E;
+        border: #124C8E solid 1px;
         transition-duration: 0.7s;
     }
     
