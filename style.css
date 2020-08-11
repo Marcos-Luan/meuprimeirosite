@@ -1,103 +1,231 @@
-    html,
-    body {
-        margin: 0px 0px;
-        margin-top: 0px;
-        background-color: gray;
-    }
-    
-    html {
-        font-family: sans-serif;
-    }
-    
-    .botaum {
-        margin: 0px;
+html,
+body {
+    margin: 0px 0px;
+    margin-top: 0px;
+    background-color: gray;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+.botaum {
+    margin: 0px;
+    float: right;
+    padding: 14px;
+    position: fixed;
+}
+
+.shadow {
+    text-shadow: 2px 2px 2px black;
+}
+
+.botaum1 {
+    background-color: #187CB5;
+    border: #187CB5 solid 1px;
+    border-radius: 10px;
+    color: white;
+    white-space: normal;
+    padding: 30px 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.botaum1:hover {
+    background-color: #124C8E;
+    border: #124C8E solid 1px;
+    transition-duration: 0.7s;
+}
+
+.botaum2 {
+    background-color: #187CB5;
+    border: #187CB5 solid 1px;
+    border-radius: 10px;
+    color: white;
+    white-space: normal;
+    padding: 10px 10px 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.botaum2:hover {
+    background-color: #124C8E;
+    border: #124C8E solid 1px;
+    transition-duration: 0.7s;
+}
+
+.centro {
+    text-align: center;
+    overflow: auto;
+}
+
+h1.titulo {
+    color: white;
+    font-size: 70px;
+    margin-top: 100px;
+    letter-spacing: -2px;
+    line-height: 0, 9;
+    text-shadow: 2px 2px black;
+}
+
+h2.titulo {
+    color: white;
+    line-height: 0, 9;
+    padding-top: 30px;
+    text-shadow: 1px 1px black;
+}
+
+#image_background {
+    background: url(img/clima1.jpg);
+    background-size: cover;
+    padding: 115px;
+}
+
+div {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+
+.row:after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+.coluna {
+    float: left;
+    width: 32.33%;
+    padding: 6.5px;
+    text-align: center;
+    display: block;
+}
+
+.coluna1 {
+    width: 49%;
+    float: left;
+    padding: 0px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.colunavideo {
+    width: 40%;
+    float: left;
+    padding: 0px;
+    margin: 10px 5px 5px;
+    text-align: center;
+    display: block;
+}
+
+.c1 {
+    background-color: #ccc;
+    background-size: cover;
+}
+
+.c2 {
+    background-color: #bbbbbb;
+}
+
+.c3 {
+    background-color: rgb(99, 99, 99);
+}
+
+.photo {
+    border-radius: 150px;
+    width: 20%;
+    height: 20%;
+    position: relative;
+    left: 12%;
+}
+
+.separar {
+    padding-bottom: 280px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.cc3 {
+    font-size: 20px;
+    padding-top: 60px;
+    padding-left: 90px;
+}
+
+.rodape {
+    color: white;
+    text-align: center;
+    height: 150px;
+    background-color: rgb(34, 34, 34);
+}
+
+.aboutme {
+    color: white;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-top: 60px;
+}
+
+@media screen and (max-width:768px) {
+    .coluna {
+        width: 95%;
         float: left;
-        padding: 14px;
-        position: fixed;
+        padding: 0px;
+        margin: 3px;
     }
-    
-    .botaum1 {
-        background-color: #187CB5;
-        border: #187CB5 solid 1px;
-        border-radius: 10px;
-        color: white;
-        white-space: normal;
-        padding: 30px 10px 20px;
-        cursor: pointer;
-        text-decoration: none;
+    .coluna1 {
+        width: 95%;
+        float: left;
+        padding: 0px;
+        margin: 0px;
     }
-    
-    .botaum1:hover {
-        background-color: #124C8E;
-        border: #124C8E solid 1px;
-        transition-duration: 0.7s;
-    }
-    
-    .centro {
-        text-align: center;
-    }
-    
     h1.titulo {
         color: white;
-        font-size: 70px;
-        margin-top: 100px;
+        font-size: 30px;
+        margin-top: 0px;
         letter-spacing: -2px;
-        line-height: 0, 9;
+        line-height: 0, 0;
         text-shadow: 2px 2px black;
+        position: relative;
+        max-width: 90%;
+        transform: translate(5%);
+        padding-top: 25px;
     }
-    
-    h2.titulo {
-        color: white;
-        line-height: 0, 9;
-        padding-top: 30px;
-        text-shadow: 1px 1px black;
+    .botaum {
+        display: none;
     }
-    
+    .cc3 {
+        font-size: 20px;
+        padding-top: 0px;
+        padding-left: 80px;
+        margin: 0px;
+        text-align: center;
+    }
     #image_background {
-        background: url(img/clima1.jpg);
-        background-size: cover;
-        padding: 115px;
-    }
-    
-    div {
+        width: auto;
+        height: 100%;
         margin: 0px;
         padding: 0px;
-        display: block;
+        max-width: 100%;
     }
-    
-    .row:after {
-        clear: both;
-        display: table;
-        content: "";
+    .rodape {
+        height: 300px;
+        padding-top: 30px;
     }
-    
-    .coluna {
-        float: left;
-        width: 32.33%;
-        padding: 6.5px;
-        text-align: center;
+    .aboutme {
+        font-size: 20px;
+        padding-left: 0px;
+        padding-top: 0px;
     }
-    
-    .c1 {
-        background-color: #ccc;
-        background-size: cover;
+    .photo {
+        border-radius: 150px;
+        width: 40%;
+        position: relative;
+        left: 30%;
     }
-    
-    @media screen and (max-width:600px) {
-        .coluna {
-            width: 97.7%;
-        }
-    }
-    
-    .whohelp {
-        background-color: #aaa;
-        height: 500px;
-        margin: 0px;
-    }
-    
-    #rodape {
-        background-color: rgb(53, 53, 53);
-        color: white;
-        text-align: center;
-        height: 50px;
-    }
+}
